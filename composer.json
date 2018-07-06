@@ -1,0 +1,26 @@
+{
+    "name": "trilobit-gmbh/contao-monitoring-client-sensor-googlemaps",
+    "description": "Provides a sensor for the MonitoringClient, which reads the Google-Maps data.",
+    "keywords": ["contao", "monitoring", "dlh_googlemaps"],
+    "type": "contao-module",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "trilobit GmbH",
+            "homepage": "https://github.com/trilobit-gmbh"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "contao/core-bundle": "~3.5 || ~4.4",
+        "contao-community-alliance/composer-plugin": "~2.4 || ~3.0",
+        "contao-monitoring/monitoring-client": "~1.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "system/modules/MonitoringClientSensorGoogleMaps": "system/modules/MonitoringClientSensorGoogleMaps"
+            }
+        }
+    }
+}
